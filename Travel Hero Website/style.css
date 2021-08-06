@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins';
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("images/travel-image.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+header a {
+  margin: 1rem;
+  color: #fff;
+}
+
+header ul {
+  margin-right: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
+}
+
+.hero h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  -webkit-transform: translateY(9rem);
+          transform: translateY(9rem);
+}
+
+.hero span {
+  font-size: 5rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+
+.hero .search {
+  text-align: center;
+  -webkit-transform: translateY(12rem);
+          transform: translateY(12rem);
+}
+
+.hero .search #search {
+  width: 50%;
+  font-size: 2rem;
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #e6e6e6;
+}
+
+.hero .search button {
+  background: #0e01c0;
+  color: #fff;
+  font-size: 2rem;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.hero .notes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translateY(15rem);
+          transform: translateY(15rem);
+}
+
+.hero .notes .note {
+  background: #fff;
+  height: 10rem;
+  width: 10rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px #000;
+          box-shadow: 0px 0px 10px #000;
+  cursor: pointer;
+  color: #000;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.hero .notes .note:hover {
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+  -webkit-box-shadow: 0px 0px 20px #000;
+          box-shadow: 0px 0px 20px #000;
+  border-radius: 20px;
+}
+
+.hero .notes .note p {
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.hero .notes .note img {
+  width: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
